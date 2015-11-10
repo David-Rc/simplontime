@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin-bottom: 50px;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 1em;
+}
+body{
+  background-image: url(https://pixabay.com/static/uploads/photo/2014/04/02/17/04/green-307835_640.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+}
+aside {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  color: white;
+}
+aside a{
+  color: white;
+  text-decoration: none;
+}
+aside a:hover{
+  text-decoration: none;
+  font-weight: bold;
+}
+aside a:visited{
+  color: white;
+  text-decoration: none;
+}
+footer {
+  bottom: 0;
+  clear: both;
+  background-color: grey;
+  color: white;
+  width: 100%;
+  position: absolute; bottom: 0;
+}
+article {
+  margin-left: 40px;
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 40px;
+}
+.Pic {
+  margin-left: 40px;
+  float: left;
+  width: 300px;
+  height: 200px;
+}
+h1 {
+  color: #FFCC00;
+  margin-bottom: 50px;
+  text-align: center;
+}
+h2 {
+  color: #FF6600;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+}
+#duck {
+  margin-left: 40%;
+  width: 300px;
+  height: 300px;
+}
+.mini_duck {
+  width: 80px;
+  height: 80px;
+  float: left;
+}

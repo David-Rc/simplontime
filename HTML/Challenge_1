@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Notifs</title>
+  <style>
+    .notif {
+      margin-bottom: 20px;
+      color: white;
+      height: 30px;
+      width: 500px;
+      border-radius: 5px;
+      font-family: sans-serif;
+    }
+    .valid {
+      background: green url("http://rxlabz.com/simplon/files/icons/icon_check_white.png") 1% no-repeat;
+      line-height: 30px;
+      background-color: #2EE75F;
+      border: 2px solid #008600;
+      padding-left: 30px;
+    }
+    .error {
+      background: red url("http://rxlabz.com/simplon/files/icons/dialog-warning.png") 1% no-repeat;
+      padding-left: 30px;
+      border: 2px solid #B80017;
+      line-height: 30px;
+      background-color: #DA7208 ;
+    }
+  </style>
+</head>
+<body>
+  <div class="notif valid">Bienvenue</div>
+	<div class="notif error">Erreur</div>
+
+  <img src="" />
+
+</body>
+</html>
