@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Galerie_photo</title>
+    <style>
+    *{
+      margin: 0;
+      padding: 0;
+      /*border: 1px dashed red;*/
+    }
+    @media screen and (min-width: 1024px){
+
+      body {
+        background-color: #212121;
+      }
+
+      #container{
+        margin: auto;
+        width: 50%;
+        background-color: white;
+      }
+
+      #one {
+        margin: auto;
+        text-align: center;
+      }
+
+      #one article {
+        background-color: #212121;
+        color: white;
+      }
+
+      #two img {
+      display: inline-block;
+    }
+
+      #two article {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 20%;
+    }
+
+    #three img {
+      display: inline-block;
+    }
+
+    #three article {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 20%;
+    }
+    #four img {
+      display: inline-block;
+    }
+
+    #four article {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 20%;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1024px){
+      #container{
+        margin: auto;
+        width: 90%;
+      }
+      #one h3, p{
+        background-color: white;
+      }
+      h1 {
+        background-color: #212121;
+        color: white;
+      }
+      #one, #two, #three,#four, article {
+        vertical-align: top;
+        display: inline-block;
+      }
+      #one, #two, #three, #four {
+        vertical-align: top;
+        display: inline-block;
+      }
+      img {
+        display: inline-block;
+        width: 150px;
+      }
+      article{
+        margin-top: 50px;
+      }
+  }
+  @media screen and (max-width: 600px){
+    #container{
+      text-align: center;
+    }
+    h1{
+      color: white;
+      background-color: #212121;
+    }
+    img{
+      margin: auto;
+      display: block;
+      width: 400px;
+      height: 300px;
+    }
+    #one, #two, #three, #four {
+      margin: auto;
+      display: block;
+    }
+    article{
+      margin-top: 0;
+    }
+    article p{
+      display: none;
+    }
+  }
+    </style>
+  </head>
+  <body>
+   <div id='container'>
+     <h1>Galerie</h1>
+     <div id='one'>
+       <img src='https://c1.staticflickr.com/9/8201/8211625968_b17e3e103a.jpg'/>
+       <article>
+         <h3>Titre de la photo</h3>
+         <p>Texte ludum dare</p>
+       </article>
+     </div>
+     <div id='two'>
+       <img src='https://upload.wikimedia.org/wikipedia/commons/2/28/RGB_illumination.jpg'/>
+       <article>
+         <h3>Titre de la photo</h3>
+         <p>Texte ludum dare</p>
+      </article>
+    </div>
+    <div id='three'>
+      <img src='https://upload.wikimedia.org/wikipedia/commons/2/28/RGB_illumination.jpg'/>
+      <article>
+        <h3>Titre de la photo</h3>
+        <p>Texte ludum dare</p>
+     </article>
+   </div>
+   <div id='four'>
+     <img src='https://upload.wikimedia.org/wikipedia/commons/2/28/RGB_illumination.jpg'/>
+     <article>
+       <h3>Titre de la photo</h3>
+       <p>Texte ludum dare</p>
+    </article>
+  </div>
+   </div>
+  </body>
+</html>
